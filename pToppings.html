@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="./pToppings.js"></script>
+  <Script type="text/javascript" src="./pizza-toppings.json"></script>
+  <link rel="stylesheet" href="./pToppings.css">
+</head>
+
+<body>
+  <div class="content">
+      <img src="./pizza.png" alt="pizza" class="pizza-image">
+      <span class="header" >PizzaMachine 5000</span>
+      <h4 class="topping-label">Search for pizza-toppings</h4>
+      <input id="topping" type="text" class="topping-input" onkeypress ="autoComplete()" oninput="onInput()" list="toppingList">
+      <datalist id="toppingList"></datalist>
+      <h4 class="selectedHeader">Selected Pizza Toppings</h4>
+      <div id="selected" class="selectedList">Search for topings to get started</div>
+  </div>    
+</body>
+
+</html>

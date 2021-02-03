@@ -1,0 +1,65 @@
+body {
+    height: 92vh;
+    font-family: sans-serif;
+}
+
+.content {
+    width: 320px;
+    height: 100%;
+    margin: auto;
+    padding: 16px;
+    background-color: #fafafa;
+    color: #808080;
+}
+
+.pizza-image {
+    height: 40px;
+    width: 40px;
+}
+
+.header {
+    bottom: 10px;
+    position: relative;
+    font-size: 30px;
+}
+
+.topping-label {
+    margin: 8px 0;
+    display: block;
+}
+
+.topping-input {
+    display: block;
+    width: 100%;
+    line-height: 2.5;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.selectedTopping {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #808080;
+}
+
+.selectedHeader {
+    padding: 8px 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #808080;
+}
+
+.badge {
+    background-color: #808080;
+    border-radius: 50%;
+    height: 16px;
+    width: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.selectedList {
+    padding: 8px 0px;
+}
